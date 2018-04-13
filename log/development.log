@@ -185,3 +185,18 @@ Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 173.2.248.31 at 2018-04-13 16:49:20 +0000
+
+
+Started GET "/students" for 173.2.248.31 at 2018-04-13 16:52:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
+  Rendered static/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 281ms (Views: 271.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/students" for 173.2.248.31 at 2018-04-13 16:52:03 +0000
+Processing by StaticController#index as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students"[0m
+  Rendered static/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms)
