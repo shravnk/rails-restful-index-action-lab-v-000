@@ -1,5 +1,5 @@
 class StaticController
-  def students
+  def index
 
   end
 end
